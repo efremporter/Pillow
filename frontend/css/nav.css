@@ -1,8 +1,23 @@
 .nav {
-  padding-left: 50px;
+  padding-left: 12px;
+  padding-right: 13px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #2A2A35;
 }
 
 .header {
-  font-size: 50px;
-  background-color: blue;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 25px;
+}
+
+#logo {
+  font-size: 30px;
+}
+
+.left-side {
+  display: inline;
+  margin: auto;
+  padding-left: 190px;
+  padding-top: 500px;
 }

@@ -3,21 +3,22 @@ import '../css/nav.css';
 const Home = () => {
 
   return (
-    <div>
-      <header class="header">Hello</header>
+    <header className="header">
       <nav>
-        <a class="nav" href="">Buy</a>
-        <a class="nav" href="">Rent</a>
-        <a class="nav" href="">Sell</a>
-        <a class="nav" href="">Home Loans</a>
-        <a class="nav" href="">Agent Finder</a>
-        <a class="nav" href="">Pillow</a>
-        <a class="nav" href="">Manage Rentals</a>
-        <a class="nav" href="">Advertise</a>
-        <a class="nav" href="">Help</a>
-        <a class="nav" href="">Sign in</a>
+        <div className="left-side">
+          <a className="nav" id="buy" href="">Buy</a>
+          <a className="nav" id="rent" href="">Rent</a>
+          <a className="nav" id="sell" href="">Sell</a>
+          <a className="nav" id="home_loan" href="">Home Loans</a>
+          <a className="nav" id="agent_finder" href="">Agent Finder</a>
+        </div>
+        <a className="nav" id="logo" href="">Pillow</a>
+        <a className="nav" href="">Manage Rentals</a>
+        <a className="nav" href="">Advertise</a>
+        <a className="nav" href="">Help</a>
+        <a className="nav" href="">Sign in</a>
       </nav>
-    </div>
+  </header>
   )
 }
 
