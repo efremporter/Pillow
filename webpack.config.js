@@ -20,6 +20,10 @@ module.exports = {
                         presets: ['@babel/env', '@babel/react']
                     }
                 },
+            }, 
+            {
+                test: /\.css$/,
+                use: [ 'style-loader', 'css-loader' ]
             }
         ]
     },

@@ -1,20 +1,21 @@
 import React from "react";
-
+import '../css/nav.css';
 const Home = () => {
 
   return (
     <div>
+      <header class="header">Hello</header>
       <nav>
-        <a href=""> Buy </a>
-        <a href=""> Rent </a>
-        <a href=""> Sell </a>
-        <a href=""> Home Loans </a>
-        <a href=""> Agent Finder </a>
-        <a href=""> Pillow </a>
-        <a href=""> Manage Rentals </a>
-        <a href=""> Advertise </a>
-        <a href=""> Help </a>
-        <a href=""> Sign in </a>
+        <a class="nav" href="">Buy</a>
+        <a class="nav" href="">Rent</a>
+        <a class="nav" href="">Sell</a>
+        <a class="nav" href="">Home Loans</a>
+        <a class="nav" href="">Agent Finder</a>
+        <a class="nav" href="">Pillow</a>
+        <a class="nav" href="">Manage Rentals</a>
+        <a class="nav" href="">Advertise</a>
+        <a class="nav" href="">Help</a>
+        <a class="nav" href="">Sign in</a>
       </nav>
     </div>
   )
