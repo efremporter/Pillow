@@ -1,5 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  }  
+
 .nav {
-  padding-left: 12px;
+  padding-left: 13px;
   padding-right: 13px;
   text-decoration: none;
   font-size: 16px;
@@ -8,16 +13,46 @@
 
 .header {
   font-family: 'Open Sans', sans-serif;
-  padding-top: 25px;
+  padding-top: 7px;
+  padding-bottom: 25px;
+  border: 1px;
 }
 
 #logo {
-  font-size: 30px;
+  font-size: 40px;
+  color: #006AFF;
+  padding-left: 173px;
+  padding-right: 173px;
+
 }
 
 .left-side {
   display: inline;
-  margin: auto;
-  padding-left: 190px;
+  padding-left: 70px;
+}
+
+.right-side {
+  display: inline;
+  padding-left: 20px;
   padding-top: 500px;
 }
+
+/* Splash pic */
+
+.splashy {
+  text-align: center;
+}
+
+#splash_pic {
+  margin-left: 0px;
+  padding-left: 0px;
+  width: 1440px;
+}
+
+#sleepy {
+  font-size: 38px;
+  color: #FFFFFF;
+  position: relative;
+  margin: -400px;
+}
+
