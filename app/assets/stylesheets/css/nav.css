@@ -27,14 +27,14 @@
 }
 
 .left-side {
-  display: inline;
-  padding-left: 70px;
+  display: inline-flex;
+  list-style: none;
+  padding-left: 85px;
 }
 
 .right-side {
-  display: inline;
-  padding-left: 20px;
-  padding-top: 500px;
+  display: inline-flex;
+  list-style: none;
 }
 
 /* Splash pic */
@@ -46,7 +46,7 @@
 #splash_pic {
   margin-left: 0px;
   padding-left: 0px;
-  width: 1440px;
+  width: 100%;
 }
 
 #sleepy {
@@ -56,3 +56,16 @@
   margin: -400px;
 }
 
+#splash_search {
+  margin-top: 25px;
+  width: 30%;
+  height: 65px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 5px;
+  border-color: #D1D1D5;
+}
+
+.buy-sub {
+  display: none;
+}

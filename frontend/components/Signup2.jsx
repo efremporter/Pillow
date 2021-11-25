@@ -1,6 +1,6 @@
 import React from "react";
 
-const Signup = () => {
+const Signup2 = () => {
   let email;
   let password;
   return (
@@ -32,4 +32,4 @@ const Signup = () => {
   )
 }
 
-export default Signup;
+export default Signup2;

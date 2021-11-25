@@ -1,12 +1,13 @@
-import React from "react"
-import Login from "./components/Login"
-import Signup from "./components/Signup"
-import Home from "./components/Home"
+import React from "react";
+import Login from "./components/Login";
+import Home from "./components/Home";
+import SignupContainer from "./components/session_form/signup_form_container";
+
 
 const App = () => {
   return (
     <div>
-      <Home />
+      <SignupContainer />
     </div>
   )
 }
