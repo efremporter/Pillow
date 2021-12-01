@@ -20,3 +20,6 @@ export const logout = () => (
     method: 'DELETE'
   })
 );
+
+window.fetchLogin = login;
+window.fetchSignup = signup;

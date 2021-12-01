@@ -39,3 +39,7 @@ export const logout = () => dispatch => (
     dispatch(logoutCurrentUser())
   ))
 );
+
+// window.login = login;
+// window.receiveErrors = receiveErrors;
+// window.receiveCurrentUser = receiveCurrentUser;
